@@ -234,7 +234,7 @@ const Payment = () => {
                               onClick={handleClick}
                               role="button"
                               type="submit"
-                              className="btn btn-primary w-100"
+                            className="paybtn"
                             >
                              PAY NOW
                             </button>
