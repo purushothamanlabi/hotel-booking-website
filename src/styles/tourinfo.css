@@ -144,6 +144,7 @@
 }
 
 
+
 @media only screen and(max-width:768px) {
     .tour__extra-details {
         flex-wrap: wrap;
@@ -158,8 +159,43 @@
         font-size: 1rem;
     }
 }
-@media only screen and(max-width:480px) {
-   .hide_res{
-    display: none !important;
-   }
+
+
+
+
+
+
+@media screen and (max-width:420px) {
+    .tour__extra-details{
+        flex-direction: column !important;
+        /* padding-top: 1rem; */
+        justify-content: start;
+        align-items: start;
+    }
+    .tour__extra-details span{
+        padding-top: 1rem !important;
+    }
 }
+
+
+@media screen and (max-width:388px) {
+    .rat_bar{
+        gap: 1rem !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media only screen and(max-width:480px) {
+    .hide_res{
+     display: none !important;
+    }
+ }
+ 
+
