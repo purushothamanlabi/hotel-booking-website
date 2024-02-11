@@ -8,6 +8,24 @@
   }
 
 
+.paybtn{
+
+ height: 100%;
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 16px;
+  /* font-weight: bold; */
+  border: none;
+  /* border-radius: 6px; */
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  background-color: #007bff;
+  color: #ffffff;
+  /* transition: background-color 0.3s ease, color 0.3s ease; */
+  width: 100%;
+}
+
   .debit_card{
     background:  linear-gradient(to right, rgb(192, 38, 211), rgb(219, 39, 119));
   }
