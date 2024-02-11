@@ -141,7 +141,7 @@ const Header = () => {
                 <div className="nav__btns d-flex align-item-center gap-2 pl-1">
                   {user ? (
                     <>
-                    <h5 className="login-logo  mt-1 w-4 h-5">
+                    <h5 className="login-logo  mt-1 w-7 h-5">
                         <img
                           // width="48"
                           // height="48"
