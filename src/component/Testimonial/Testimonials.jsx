@@ -45,7 +45,7 @@ const Testimonials = () => {
 
   return ( 
 
-  <div className="slider-container" style={{width:"96%"}}>
+  <div className="slider-container" style={{width:"95%"}}>
     <Slider {...settings}>
     <div className="testimonial py-4 px-3">
     <p>
