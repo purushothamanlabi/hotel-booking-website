@@ -55,14 +55,24 @@
 
 }
 
-.search__icon{
+/* .search__icon{
     font-size: 1.6rem;
     padding: 0.5rem;
     background: var(--secondary-color);
     color: #fff;
     border-radius: 10px 5px 10px 5px;
     cursor: pointer;
+} */
+
+.search__icon {
+  font-size: 1.6rem !important;
+  padding: 0.5rem !important;
+  background: var(--secondary-color) !important;
+  color: #fff !important;
+  border-radius: 10px 5px 10px 5px !important;
+  cursor: pointer !important;
 }
+
 
 
 
