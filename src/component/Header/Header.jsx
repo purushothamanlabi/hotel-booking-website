@@ -278,7 +278,7 @@ const Header = () => {
           
          
         </COffcanvasBody>
-        <div className="mt-auto mb-10 ">
+        <div className="mt-auto mb-7 ">
         {user?  <button  className=" logout_btn "  onClick={logout}>
                       Logout
                     </button>:""}
