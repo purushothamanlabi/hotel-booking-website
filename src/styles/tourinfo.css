@@ -175,6 +175,9 @@
     .tour__extra-details span{
         padding-top: 1rem !important;
     }
+     .tour__reting,.tour_address{
+        margin-top: 0.4rem;
+    }
 }
 
 
