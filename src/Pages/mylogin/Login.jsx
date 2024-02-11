@@ -63,13 +63,7 @@ const Login = () => {
       // toast.success("Failed to log in");
       toast.error("Failed to log in", {
         className: 'custom-toast',
-      });
-      toast.info("Failed to log in", {
-        className: 'custom-toast',
-      });
-      toast.success("Failed to log in", {
-        className: 'custom-toast',
-      });
+      }); 
     }
   };
   
