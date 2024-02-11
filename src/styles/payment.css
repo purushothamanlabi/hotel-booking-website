@@ -7,24 +7,24 @@
     background-color:#0d6efd;
   }
 
-
 .paybtn{
-
- height: 100%;
-  display: inline-block;
-  padding: 8px 16px;
-  font-size: 16px;
+ height: 100% !important;
+  display: inline-block !important;
+  padding: 8px 16px !important;
+  font-size: 16px !important;
   /* font-weight: bold; */
-  border: none;
+  border: none !important;
   /* border-radius: 6px; */
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  background-color: #007bff;
-  color: #ffffff;
+  cursor: pointer !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  background-color: #007bff !important;
+  /* background-color: #000000; */
+  color: #ffffff !important;
   /* transition: background-color 0.3s ease, color 0.3s ease; */
-  width: 100%;
+  width: 100% !important;
 }
+
 
   .debit_card{
     background:  linear-gradient(to right, rgb(192, 38, 211), rgb(219, 39, 119));
