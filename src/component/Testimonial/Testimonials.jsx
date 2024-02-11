@@ -43,7 +43,10 @@ const Testimonials = () => {
   }
 
 
-  return ( <Slider {...settings}>
+  return ( 
+
+  <div className="slider-container" style={{width:"96%"}}>
+    <Slider {...settings}>
     <div className="testimonial py-4 px-3">
     <p>
         I had an incredible experience with this travel agency! The attention to detail and personalized service made my trip unforgettable. The guides were knowledgeable, and the itinerary was well-planned.
@@ -102,7 +105,7 @@ const Testimonials = () => {
     </div>
 
   </Slider>
-    
+ </div>
   )
 }
 
