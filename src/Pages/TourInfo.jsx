@@ -139,19 +139,19 @@ const TourInfo = () => {
 
                   <Form onSubmit={subitHandler} >
                     <div className="d-flex align-items-center gap-4  mb-3 ratinggroup">
-                      <span onClick={()=> {setTourRating(1); toast.info("tour have rated 1 start")}}>
+                      <span onClick={()=> {setTourRating(1); toast.info("tour have rated 1 star")}}>
                         1 <i Class='ri-star-s-fill'></i>
                       </span>
-                      <span onClick={()=> {setTourRating(2); toast.info("tour have rated 2 start")}}>
+                      <span onClick={()=> {setTourRating(2); toast.info("tour have rated 2 star")}}>
                         2 <i Class='ri-star-s-fill'></i>
                       </span>
-                      <span onClick={()=> {setTourRating(3); toast.info("tour have rated 3 start")}}>
+                      <span onClick={()=> {setTourRating(3); toast.info("tour have rated 3 star")}}>
                         3 <i Class='ri-star-s-fill'></i>
                       </span>
-                      <span onClick={()=> {setTourRating(4); toast.info("tour have rated 4 start")}}>
+                      <span onClick={()=> {setTourRating(4); toast.info("tour have rated 4 star")}}>
                         4 <i Class='ri-star-s-fill'></i>
                       </span>
-                      <span onClick={()=> {setTourRating(5); toast.info("tour have rated 5 start")}}>
+                      <span onClick={()=> {setTourRating(5); toast.info("tour have rated 5 star")}}>
                         5 <i Class='ri-star-s-fill'></i>
                       </span>
                     </div>
