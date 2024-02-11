@@ -279,9 +279,9 @@ const Header = () => {
          
         </COffcanvasBody>
         <div className="mt-auto mb-3 ">
-        {user?<Button className="btn btn-dark" onClick={logout}>
-                        logout
-                      </Button>:""}
+        {user?  <button  className=" logout_btn "  onClick={logout}>
+                      Logout
+                    </button>:""}
             </div>
        
       </COffcanvas>
