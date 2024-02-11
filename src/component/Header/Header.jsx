@@ -153,14 +153,14 @@ const Header = () => {
                       <h5 className="mb-0 pr-3 profile_link pt-1 d-flex align-item-center pt-2">
                         {" "}
                         <Link
-                          style={{ textDecoration: "none" }}
+                         style={{ textDecoration: "none",color:"blue",fontSize:"1.2rem " }}
                           to={`/home/profile/${user._id}`}
                         >
                           {user.username}
                         </Link>
                       </h5>
 
-                      <Button className="btn btn-dark logout_btn" onClick={logout}>
+                      <Button className="btn btn-dark logout_btn" style={{backgroundColor:"black"}} onClick={logout}>
                         logout
                       </Button>
                     </>
