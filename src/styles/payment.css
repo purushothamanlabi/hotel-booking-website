@@ -1,0 +1,70 @@
+.payment__forms .cardStyle {
+    width:340px;
+    border-radius:12px;
+  }
+
+  .payment__forms .root_color{
+    background-color:#0d6efd;
+  }
+
+
+  .debit_card{
+    background:  linear-gradient(to right, rgb(192, 38, 211), rgb(219, 39, 119));
+  }
+
+  .credit_card{
+    /* background:linear-gradient(to top left ,#5c4494,#4c387a); */
+    background:linear-gradient(to top left ,rgb(27, 12, 12),rgb(20, 14, 11));
+
+  }
+ .card_tx_col{
+  color: #f7f7f7 !important;
+ }
+  .validity_tab{
+    background: #0d6efd;
+  }
+
+ .payment__forms .selectBox {
+    border:1px solid #222222;
+    width:24px;
+    height:24px;
+    text-align:center;
+    border-radius:50%;
+    line-height:22px;
+    font-size:12px;
+  }
+  .payment__forms .selected {
+    color:#fff;
+    border:1px solid #f7f7f7 !important;
+  }
+  .payment__forms small {
+    font-size:12px;
+    letter-spacing:1px;
+  }
+  .payment__forms label,
+  .payment__forms h6 {
+    font-size:12px;
+    text-transform : uppercase;
+    color:#aaaaaa
+  }
+  .payment__forms a.btn {
+    line-height:32px;
+  }
+  .payment__forms  a.btn,
+  button.btn,
+  select.form-control,
+  input.form-control {
+    height:48px;
+    border-radius:2px;
+  }
+
+
+  @media only screen and (max-width:991px) {
+    .payment__forms .hide_card_se{
+      display: none;
+    }
+    .payment__forms .card_center{
+      justify-content: center;
+    }
+  }
+  

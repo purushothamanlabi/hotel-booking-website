@@ -1,0 +1,159 @@
+.hero__subtitle img{
+    width: 2.4rem;
+    height: 2.3rem;
+}
+
+.hero__content h1{
+    font-size: 2.7rem;
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: var(--heading-color);
+}
+
+.hero__content h1 .highlight {
+    color: var(--secondary-color);
+    margin: 0.5rem;
+}
+
+.hero__content p{
+    font-size: 1.2rem;
+    color: var(--text-color);
+    line-height: 2rem;
+}
+
+.hero__img-box img , .hero__img-box video{
+    width: 100%;
+    height: 350px;
+    border-radius: 20px;
+    border: 1px solid var(--secondary-color);
+    object-fit: cover;
+
+}
+
+/* 
+.hero__content{
+    padding-top: 2rem;
+} */
+
+.hero__img-box{
+    padding: 0rem;
+}
+
+.server__subtitle{
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: brown;
+    font-family: var(--subtitle-font-name);
+}
+
+
+.server__title{
+    font-size: 2.5rem;
+    font-weight: 500;
+    
+}
+
+.featuor__tour-title{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+
+
+.exprience__content h2{
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+
+.exprience__content p{
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    color: var(--text-color);
+}
+
+
+
+.counter__wrapper{
+    margin-top: 2.5rem;
+}
+
+.counter__wrapper span{
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:var(--primary-color);
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-radius: 10px 5px 10px 5px;
+}
+
+.counter__box h6{
+    font-size: 1.1rem;
+    margin-top: 0.7rem;
+    color: var(--text-color);
+
+}
+
+.gallery__title{
+    font-size: 2.3rem;
+    margin-bottom: 2.3rem;
+    margin-top: 1rem;
+}
+
+
+
+.mosonary__img{
+    transition: .3s;
+}
+
+.mosonary__img:hover{
+
+    transform: scale(1.04);
+}
+
+
+.testimont__title{
+    font-size: 2.3rem;
+    margin-top: 1rem;
+    
+}
+
+
+
+@media only screen and (max-width:992px){
+    .hero__content h1{
+        font-size: 2.7rem;
+    }
+
+    .hero__img-box{
+        display: none;
+    }
+    .hero__video-box{
+        display: block;
+    }
+    .server__title .featuor__tour-title .gallery__title .testimont__title .exprience__content h2{
+        font-size: 2rem;
+    }
+    .experience__img{
+        margin-top: 2rem;
+    }
+}
+
+
+
+
+@media only screen and (max-width:576px){
+    .hero__content h1{
+        font-size: 1.8rem;
+    }
+    .server__title .featuor__tour-title .gallery__title .testimont__title .exprience__content h2{
+        font-size: 1.8rem;
+    }
+}

@@ -1,0 +1,1 @@
+export const BASE_URL = 'https://hotelback-xjeu.onrender.com/api/v1'

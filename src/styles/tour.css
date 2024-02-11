@@ -1,0 +1,124 @@
+.pagination span{
+    width: 2rem;
+    height: 2rem;
+    padding: 5px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--secondary-color);
+    color: var(--heading-color);
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.active__page{
+    background: var(--secondary-color);
+    color: #fff;
+} 
+
+.tour__text h1{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: var(--heading-color);
+}
+
+.tour__text h1 .highlight {
+    color: var(--secondary-color);
+    margin: 0.5rem;
+}
+
+.tour__text p{
+    font-size: 1.2rem;
+    color: var(--text-color);
+    line-height: 2rem;
+}
+
+.hero__img-box img , .hero__img-box video{
+    width: 100%;
+    height: 350px;
+    border-radius: 20px;
+    border: 1px solid var(--secondary-color);
+    object-fit: cover;
+
+}
+
+
+.head__tour_info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.head__tour_info div{
+    max-width: 450px;
+    /* min-width: 350px; */
+}
+
+
+
+@media only screen and (max-width:992px){
+    .tour__text h1{
+        font-size: 2.7rem;
+    }
+
+
+    
+
+    
+}
+@media only screen and (min-width:992px){
+   
+    .tour__text{
+        order: 1;
+        margin-right: 1rem;
+     }
+
+     .tour__datepic{
+        order: 3;
+        margin-top: 3rem;
+     }
+
+     .tour__slider{
+        order: 2;
+     }
+    .head__tour_info{
+        padding-top: 0 !important;
+    }
+}
+@media only screen and (min-width:1400px){
+   
+    .tour__text{
+        order: 1;
+        max-width: 400px !important;
+        border-radius: 1px solid black !important;
+     }
+
+     .tour__datepic{
+        order: 2;
+        margin-top: 3rem;
+     }
+
+     .tour__slider{
+        order: 3;
+     }
+    .head__tour_info{
+        padding-top: 0 !important;
+        justify-content: space-between;
+
+    }
+}
+
+
+
+
+@media only screen and (max-width:576px){
+    .tour__text h1{
+        font-size: 1.8rem;
+    }
+}
