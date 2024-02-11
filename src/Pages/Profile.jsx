@@ -227,7 +227,7 @@ const Profile = () => {
                     <div className="col-sm-9 text-secondary">
                       <input   onClick={showmsg}
                         type="button"
-                        className="btn btn-primary px-4"
+                       className="btn-input"
                         value="Save Changes"
                       />
                     </div>
